@@ -8,23 +8,17 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+Portfolio roadmap
 
-# Header 1
-## Header 2
-### Header 3
+1.Requirement Extraction
 
-- Bulleted
-- List
+- [Detail] (../output/Requirement_Extraction.html)
+- Hello DAL
 
-1. Numbered
-2. List
+2. UI visual Design
 
-**Bold** and _Italic_ and `Code` text
+- ![img] ({file}/static/ibar.gif)
 
-[Link](url) and ![Image](src)
-```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
