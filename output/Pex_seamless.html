@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Responsive design for proximity-triggered smart hardware</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="yuanjing">
+
+    <!-- Le styles -->
+    <link rel="stylesheet" href="/theme/css/bootstrap.min.css" type="text/css" />
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+      .tag-1 {
+        font-size: 13pt;
+      }
+      .tag-2 {
+        font-size: 10pt;
+      }
+      .tag-2 {
+        font-size: 8pt;
+      }
+      .tag-4 {
+        font-size: 6pt;
+     }
+    </style>
+    <link href="/theme/css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="/theme/css/font-awesome.css" rel="stylesheet">
+
+    <link href="/theme/css/pygments.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="/theme/images/favicon.ico">
+    <link rel="apple-touch-icon" href="/theme/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/theme/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/theme/images/apple-touch-icon-114x114.png">
+
+    <link href="/" type="application/atom+xml" rel="alternate" title="Mavericksun Portfolio ATOM Feed" />
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="/index.html">Mavericksun Portfolio </a>
+          <div class="nav-collapse">
+            <ul class="nav">
+                          <li class="divider-vertical"></li>
+                  <li >
+                    <a href="/category/misc.html">
+						<i class="icon-folder-open icon-large"></i>misc
+					</a>
+                  </li>
+                  <li class="active">
+                    <a href="/category/project.html">
+						<i class="icon-folder-open icon-large"></i>project
+					</a>
+                  </li>
+                  <li >
+                    <a href="/category/review.html">
+						<i class="icon-folder-open icon-large"></i>Review
+					</a>
+                  </li>
+
+                          <ul class="nav pull-right">
+                                <li><a href="/archives.html"><i class="icon-th-list"></i>Archives</a></li>
+                          </ul>
+
+            </ul>
+            <!--<p class="navbar-text pull-right">Logged in as <a href="#">username</a></p>-->
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="span9" id="content">
+<section id="content">
+        <article>
+                <header>
+                        <h1>
+                                <a href=""
+                                        rel="bookmark"
+                                        title="Permalink to Responsive design for proximity-triggered smart hardware">
+                                        Responsive design for proximity-triggered smart hardware
+                                </a>
+                        </h1>
+                </header>
+                <div class="entry-content">
+                <div class="well">
+<footer class="post-info">
+<span class="label">Date</span>
+<abbr class="published" title="2017-03-25T10:32:00+08:00">
+        <i class="icon-calendar"></i>Sat 25 March 2017
+</abbr>
+<span class="label">By</span>
+<a href="/author/yuanjing-sun.html"><i class="icon-user"></i>Yuanjing Sun</a>
+<span class="label">Category</span>
+<a href="/category/project.html"><i class="icon-folder-open"></i>project</a>.
+
+
+<span class="label">Tags</span>
+	<a href="/tag/usability-test.html"><i class="icon-tag"></i>usability test</a>
+</footer><!-- /.post-info -->                </div>
+                <h2>Project Goal</h2>
+<p>Distance-dependent interaction is adopted from location based services(LBS) but emphasis on interaction with smart building facilities like lock or elevator. The relative range between interface/sensor and the user is critical to distance-dependent interaction because different tasks under the different environment with different technologies (Bluetooth Low-energy, NFC, Zigbee, Wifi Direct, RFID, camera-based QR code) can create hundreds or thousands combination of interactions. How to quickly evaluate the complexity of the task and the comfort of application including Naturlistic UI solution is the key for distance-dependent interaction when lacking commercial tools like Morae.</p>
+<h3>1.Motivation &amp; Problem  identification</h3>
+<p>The purpose of this usability test is to verify whether the App UI can fit well with traditional elevator-taking process. Eight participants took four tasks ( regular use cases )in the 1st day and all of them together took group test (two edge cases) in the second day. The ride from building gate to elevator were captured by two preset cameras. The mobile screen were also mirrored to tester’s laptop and recorded at the same time. In this way, all interaction were captured and measured (such as complete time, accuracy rate). User’s subjective comments were collected by an 1-on-1 interview as final step. </p>
+<h3>2 Baseline acquisition from existing tool(hall call button and floor button)</h3>
+<p><img src="/static/pex_waiting_time_video.png"></p>
+<p>The chart came from total 159 passengers collected in Tsinghua video.
+The blue line and label is the average floor-setting time length by the passenger's sequence.
+The red line and  label was from Otis ESSI’s experiment time which is the Average BlueTooth serving time per iPhone.
+The green line and label is the maximum BT serving time per iphone. 
+The table also shows the frequency (in other words, probability) of the chance that peak concurrence happens.</p>
+<h3>3 Usability test plan for PeX</h3>
+<ul>
+<li>Test Plan Outline</li>
+</ul>
+<p><img src="/static/pex_test_plan_outline.png", width="70%" height="70%"></p>
+<ul>
+<li>Schematic drawing of test site setup and test case(edge case definition)</li>
+</ul>
+<p><img src="/static/pex_usability_test_design.png" ,width="60%" height="70%"></p>
+<p><img src="/static/pex_test_edgecase6.png" , width="70%" height="70%">
+<img src="/static/pex_test_edgecase7.png", width="70%" height="70%"></p>
+<h3>4 Test process &amp; data samles</h3>
+<ul>
+<li>Test process</li>
+</ul>
+<p><img alt="pex" src="/static/Pex_teda_process_video.gif"></p>
+<ul>
+<li>Log data visualization</li>
+</ul>
+<p><img src="/static/pex_cross_platform_data_proximity_trigger.png", width="60%" height="60%"></p>
+<h3>5 Test result: Root cause analysis of interaction issue</h3>
+<ul>
+<li>Questionnaire summary&amp; Key issue</li>
+</ul>
+<p><img src="/static/pex_key_issue.png", width="60%" height="60%"></p>
+<p>The Black text listed the nine most common status in interaction logic. The original article link listed in left bottom. The blue text are the usability issues found in TEDA test appeared in the nine status. Flow depicts movement: movement through water, through air, through websites, through apps, etc.</p>
+<p>-Root cause analysis of interaction issue</p>
+<p><img src="/static/pex_rca.png", width="60%" height="60%"></p>
+<p>In science and engineering, root cause analysis (RCA) is a method of problem solving used for identifying the root causes of faults or problems.It is widely used in IT operations, telecommunications, industrial process control, accident analysis. It not only identify issues but also give recommendation and order of corrective actions based on ratings.</p>
+<ul>
+<li>Column name explanation:
+-1 What’s the step
+-2 In what ways the step goes wrong
+-3 potential failure
+-4 sev: 1-5 likert scale. 1 means low severity 5 means high severity
+-5 potential causes
+-6 OCC: How frequent it occur among eight participant. 1 means 1 occur. 5 means occur to all participant. 3 means occur to 50% participant.
+-7Detection: how easily it can be detected. 1 means easy to detect and 5 means hard.
+-8RPN= Severity<em> Occurency</em>Detection for developer team know priority
+-9 Recommendation</li>
+</ul>
+                </div><!-- /.entry-content -->
+        </article>
+</section>
+        </div><!--/span-->
+
+                <div class="span3 well sidebar-nav" id="sidebar">
+<ul class="nav nav-list">
+<li class="nav-header"><h4><i class="icon-external-link"></i>blogroll</h4></li>
+    <li><a href="http://getpelican.com/"><i class="icon-external-link"></i>Pelican</a></li>
+    <li><a href="http://python.org/"><i class="icon-external-link"></i>Python.org</a></li>
+    <li><a href="http://jinja.pocoo.org/"><i class="icon-external-link"></i>Jinja2</a></li>
+    <li><a href="#"><i class="icon-external-link"></i>You can modify those links in your config file</a></li>
+<li class="nav-header"><h4><i class="icon-home icon-large"></i> social</h4></li>
+    <li><a href="#"><i class="icon-You can add links in your config file-sign icon-large"></i>You can add links in your config file</a></li>
+    <li><a href="#"><i class="icon-Another social link-sign icon-large"></i>Another social link</a></li>
+
+<li class="nav-header"><h4><i class="icon-folder-close icon-large"></i>Categories</h4></li>
+<li>
+<a href="/category/misc.html">
+    <i class="icon-folder-open icon-large"></i>misc
+</a>
+</li>
+<li>
+<a href="/category/project.html">
+    <i class="icon-folder-open icon-large"></i>project
+</a>
+</li>
+<li>
+<a href="/category/review.html">
+    <i class="icon-folder-open icon-large"></i>Review
+</a>
+</li>
+
+<li class="nav-header"><h4><i class="icon-tags icon-large"></i>Tags</h4></li>
+
+
+</ul>        </div><!--/.well -->
+
+      </div><!--/row-->
+
+      <hr>
+
+      <footer>
+        <address id="about">
+                Powered by <a href="http://pelican.notmyidea.org/">Pelican <i class="icon-external-link"></i></a>,
+                                which takes great advantage of <a href="http://python.org">Python <i class="icon-external-link"></i></a>.
+        </address><!-- /#about -->
+
+        <!-- <p>The theme is from <a href="http://twitter.github.com/bootstrap/">Bootstrap from Twitter <i class="icon-external-link"></i></a>, -->
+        <!--            and <a href="http://fortawesome.github.com/Font-Awesome/">Font-Awesome <i class="icon-external-link"></i></a>, thanks!</p> -->
+      </footer>
+
+    </div><!--/.fluid-container-->
+
+
+
+    <!-- Le javascript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/theme/js/jquery-1.7.2.min.js"></script>
+    <script src="/theme/js/bootstrap.min.js"></script>
+  </body>
+</html>

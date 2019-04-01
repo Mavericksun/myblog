@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Mavericksun'
+AUTHOR = 'yuanjing'
 SITENAME = 'Mavericksun Portfolio'
 SITEURL = ''
-
+THEME = "bootstrap2"
 PATH = 'content'
 
 TIMEZONE = 'Asia/Shanghai'
